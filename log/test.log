@@ -1,0 +1,327 @@
+  [4;36;1mSQL (0.000250)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000477)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 18:48:05', 'septagenarian', '2008-10-20 18:48:05')[0m
+  [4;36;1mSQL (0.000226)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mKeyword Create (0.000500)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 18:48:39', NULL, '2008-10-20 18:48:39')[0m
+  [4;36;1mSQL (0.000416)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000525)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 18:48:39', 'septagenarian', '2008-10-20 18:48:39')[0m
+  [4;36;1mSQL (0.000221)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000242)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000501)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 18:49:27', 'septagenarian', '2008-10-20 18:49:27')[0m
+  [4;36;1mSQL (0.000239)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000234)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000754)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 18:49:59', 'septagenarian', '2008-10-20 18:49:59')[0m
+  [4;36;1mSQL (0.000219)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000511)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 18:52:11', 'septagenarian', '2008-10-20 18:52:11')[0m
+  [4;36;1mSQL (0.000410)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000357)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000222)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000388)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 18:52:11', 'septagenarian', '2008-10-20 18:52:11')[0m
+
+
+Processing KeywordsController#keywordphraseyodeling (for 0.0.0.0 at 2008-10-20 15:15:17) [POST]
+  Session ID: 
+  Parameters: {"action"=>"keywordphraseyodeling", "controller"=>"keywords"}
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-20 15:15:53) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"yodeling"}}
+Rendering keywords/create
+Completed in 0.01170 (85 reqs/sec) | Rendering: 0.00099 (8%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=yodeling]
+
+
+Processing KeywordsController#clear_all (for 0.0.0.0 at 2008-10-20 15:17:08) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"clear_all", "controller"=>"keywords"}
+Rendering keywords/clear_all
+Completed in 0.01158 (86 reqs/sec) | Rendering: 0.00098 (8%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords/clear_all]
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-20 15:17:08) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"yodeling"}}
+Rendering keywords/create
+Completed in 0.00156 (641 reqs/sec) | Rendering: 0.00093 (59%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=yodeling]
+  [4;36;1mSQL (0.000224)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000505)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:24:42', 'septagenarian', '2008-10-20 19:24:42')[0m
+  [4;36;1mSQL (0.000413)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000430)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000358)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000548)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:24:42', 'septagenarian', '2008-10-20 19:24:42')[0m
+  [4;36;1mSQL (0.000227)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000507)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:25:16', 'septagenarian', '2008-10-20 19:25:16')[0m
+  [4;36;1mSQL (0.000425)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000431)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000366)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000567)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:25:16', 'septagenarian', '2008-10-20 19:25:16')[0m
+  [4;36;1mSQL (0.000227)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000725)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:28:58', 'septagenarian', '2008-10-20 19:28:58')[0m
+  [4;36;1mSQL (0.000413)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000414)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000343)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000556)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:28:58', 'septagenarian', '2008-10-20 19:28:58')[0m
+  [4;36;1mSQL (0.000216)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000495)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:30:25', 'septagenarian', '2008-10-20 19:30:25')[0m
+  [4;36;1mSQL (0.000416)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000396)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000342)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000549)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:30:25', 'septagenarian', '2008-10-20 19:30:25')[0m
+  [4;36;1mSQL (0.000225)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000522)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:31:18', 'septagenarian', '2008-10-20 19:31:18')[0m
+  [4;36;1mSQL (0.000419)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000413)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000312)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000472)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:31:18', 'septagenarian', '2008-10-20 19:31:18')[0m
+  [4;36;1mSQL (0.000222)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000739)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:33:26', 'septagenarian', '2008-10-20 19:33:26')[0m
+  [4;36;1mSQL (0.000416)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000251)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000254)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000387)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:33:26', 'septagenarian', '2008-10-20 19:33:26')[0m
+  [4;36;1mSQL (0.000276)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000497)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:34:52', 'septagenarian', '2008-10-20 19:34:52')[0m
+  [4;36;1mSQL (0.000422)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000395)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000376)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000521)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:34:52', 'septagenarian', '2008-10-20 19:34:52')[0m
+  [4;36;1mSQL (0.000255)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000509)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:35:56', 'septagenarian', '2008-10-20 19:35:56')[0m
+  [4;36;1mSQL (0.000425)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000432)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000364)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000607)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:35:56', 'septagenarian', '2008-10-20 19:35:56')[0m
+  [4;36;1mSQL (0.000223)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000497)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:36:52', 'septagenarian', '2008-10-20 19:36:52')[0m
+  [4;36;1mSQL (0.000485)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000426)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000357)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000561)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:36:52', 'septagenarian', '2008-10-20 19:36:52')[0m
+  [4;36;1mSQL (0.000223)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000496)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:37:46', 'septagenarian', '2008-10-20 19:37:46')[0m
+  [4;36;1mSQL (0.000426)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000404)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000355)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000556)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 19:37:46', 'septagenarian', '2008-10-20 19:37:46')[0m
+  [4;36;1mSQL (0.000219)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000497)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 20:03:47', 'septagenarian', '2008-10-20 20:03:47')[0m
+  [4;36;1mSQL (0.000407)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000411)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000341)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000593)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 20:03:47', 'septagenarian', '2008-10-20 20:03:47')[0m
+  [4;36;1mSQL (0.000221)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000488)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 20:05:03', 'septagenarian', '2008-10-20 20:05:03')[0m
+  [4;36;1mSQL (0.000402)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000394)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000410)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000539)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 20:05:03', 'septagenarian', '2008-10-20 20:05:03')[0m
+  [4;36;1mSQL (0.000222)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000485)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 22:21:48', 'septagenarian', '2008-10-20 22:21:48')[0m
+  [4;36;1mSQL (0.000409)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000398)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000420)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000513)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 22:21:48', 'septagenarian', '2008-10-20 22:21:48')[0m
+  [4;36;1mSQL (0.000221)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000487)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 22:30:47', 'septagenarian', '2008-10-20 22:30:47')[0m
+  [4;36;1mSQL (0.000407)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000405)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000315)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000469)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 22:30:47', 'septagenarian', '2008-10-20 22:30:47')[0m
+  [4;36;1mSQL (0.000224)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000486)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 22:31:57', 'septagenarian', '2008-10-20 22:31:57')[0m
+  [4;36;1mSQL (0.000407)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000390)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000345)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000540)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 22:31:57', 'septagenarian', '2008-10-20 22:31:57')[0m
+
+
+Processing KeywordsController#clear_all (for 0.0.0.0 at 2008-10-20 18:44:54) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"clear_all", "controller"=>"keywords"}
+Rendering keywords/clear_all
+Completed in 0.01186 (84 reqs/sec) | Rendering: 0.00103 (8%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords/clear_all]
+  [4;36;1mSQL (0.000261)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+  [4;35;1mKeyword Create (0.000531)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-20 22:44:54', 'sherpa', '2008-10-20 22:44:54')[0m
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-20 18:44:54) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"sherpa"}}
+  [4;36;1mSQL (0.000526)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+Rendering keywords/create
+Completed in 0.09538 (10 reqs/sec) | Rendering: 0.00097 (1%) | DB: 0.00132 (1%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=sherpa]
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-20 18:44:54) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"yodeling"}}
+Rendering keywords/create
+Completed in 0.00238 (419 reqs/sec) | Rendering: 0.00142 (59%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=yodeling]
+  [4;36;1mSQL (0.000229)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000696)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 12:59:34', 'septagenarian', '2008-10-21 12:59:34')[0m
+  [4;36;1mSQL (0.000579)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000391)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000335)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000531)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 12:59:34', 'septagenarian', '2008-10-21 12:59:34')[0m
+  [4;36;1mSQL (0.000227)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000780)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:01:02', 'septagenarian', '2008-10-21 13:01:02')[0m
+  [4;36;1mSQL (0.000462)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000401)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000322)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000461)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:01:02', 'septagenarian', '2008-10-21 13:01:02')[0m
+  [4;36;1mSQL (0.000233)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000488)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:10:07', 'septagenarian', '2008-10-21 13:10:07')[0m
+  [4;36;1mSQL (0.000443)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000406)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000345)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000549)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:10:07', 'septagenarian', '2008-10-21 13:10:07')[0m
+  [4;36;1mSQL (0.000296)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;35;1mSQL (0.000355)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000503)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:10:07', 'septagenarian', '2008-10-21 13:10:07')[0m
+  [4;36;1mSQL (0.000231)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000492)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:10:48', 'septagenarian', '2008-10-21 13:10:48')[0m
+  [4;36;1mSQL (0.000426)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000395)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000340)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000327)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000332)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000498)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:10:48', 'septagenarian', '2008-10-21 13:10:48')[0m
+  [4;36;1mSQL (0.000269)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;35;1mSQL (0.000349)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000506)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:10:48', 'septagenarian', '2008-10-21 13:10:48')[0m
+  [4;36;1mSQL (0.000231)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000555)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:12:10', 'septagenarian', '2008-10-21 13:12:10')[0m
+  [4;36;1mSQL (0.005232)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000501)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000360)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000263)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000309)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000505)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:12:10', 'septagenarian', '2008-10-21 13:12:10')[0m
+  [4;36;1mSQL (0.000209)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;35;1mSQL (0.000235)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000329)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:12:10', 'septagenarian', '2008-10-21 13:12:10')[0m
+  [4;36;1mSQL (0.000222)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000237)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000179)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000212)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000477)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:53:47', 'septagenarian', '2008-10-21 13:53:47')[0m
+  [4;35;1mSQL (0.000195)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;36;1mSQL (0.000228)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000491)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:55:03', 'septagenarian', '2008-10-21 13:55:03')[0m
+  [4;36;1mSQL (0.000412)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000365)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000250)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000228)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000379)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:55:03', 'septagenarian', '2008-10-21 13:55:03')[0m
+  [4;35;1mSQL (0.000222)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;36;1mSQL (0.000238)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000538)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:55:49', 'septagenarian', '2008-10-21 13:55:49')[0m
+  [4;36;1mSQL (0.000416)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.001223)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000406)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000308)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000515)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:55:49', 'septagenarian', '2008-10-21 13:55:49')[0m
+  [4;35;1mSQL (0.000247)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;36;1mSQL (0.000230)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000721)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:56:41', 'septagenarian', '2008-10-21 13:56:41')[0m
+  [4;36;1mSQL (0.000426)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000407)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000279)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000335)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000546)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:56:41', 'septagenarian', '2008-10-21 13:56:41')[0m
+  [4;35;1mSQL (0.000297)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;36;1mSQL (0.000242)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000494)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:57:35', 'septagenarian', '2008-10-21 13:57:35')[0m
+  [4;36;1mSQL (0.000413)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000393)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000278)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000311)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000488)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 13:57:35', 'septagenarian', '2008-10-21 13:57:35')[0m
+  [4;35;1mSQL (0.000249)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;36;1mSQL (0.000219)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000494)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 14:11:21', 'septagenarian', '2008-10-21 14:11:21')[0m
+  [4;36;1mSQL (0.000563)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000329)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000182)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000292)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000383)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 14:11:21', 'septagenarian', '2008-10-21 14:11:21')[0m
+  [4;35;1mSQL (0.000197)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;36;1mSQL (0.000231)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000492)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 14:13:00', 'septagenarian', '2008-10-21 14:13:00')[0m
+  [4;36;1mSQL (0.000478)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000460)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000281)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000339)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000571)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 14:13:00', 'septagenarian', '2008-10-21 14:13:00')[0m
+  [4;35;1mSQL (0.000274)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;36;1mSQL (0.000219)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000778)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 14:13:54', 'septagenarian', '2008-10-21 14:13:54')[0m
+  [4;36;1mSQL (0.000512)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mSQL (0.000402)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000279)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000341)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000538)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 14:13:54', 'septagenarian', '2008-10-21 14:13:54')[0m
+  [4;35;1mSQL (0.000269)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+
+
+Processing KeywordsController#clear_all (for 0.0.0.0 at 2008-10-21 11:38:16) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"clear_all", "controller"=>"keywords"}
+Rendering keywords/clear_all
+Completed in 0.01671 (59 reqs/sec) | Rendering: 0.00114 (6%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords/clear_all]
+  [4;36;1mSQL (0.000221)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+  [4;35;1mKeyword Create (0.000546)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 15:38:16', 'sherpa', '2008-10-21 15:38:16')[0m
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-21 11:38:16) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"sherpa"}}
+  [4;36;1mSQL (0.000436)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+Rendering keywords/create
+Completed in 0.00380 (262 reqs/sec) | Rendering: 0.00093 (24%) | DB: 0.00120 (31%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=sherpa]
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-21 11:38:16) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"yodeling"}}
+Rendering keywords/create
+Completed in 0.00154 (650 reqs/sec) | Rendering: 0.00092 (59%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=yodeling]
+  [4;35;1mSQL (0.000289)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000396)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 15:38:16', 'septagenarian', '2008-10-21 15:38:16')[0m
+  [4;35;1mSQL (0.000411)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mSQL (0.000258)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000177)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000226)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000366)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 15:38:16', 'septagenarian', '2008-10-21 15:38:16')[0m
+  [4;36;1mSQL (0.000195)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+
+
+Processing KeywordsController#clear_all (for 0.0.0.0 at 2008-10-21 11:38:36) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"clear_all", "controller"=>"keywords"}
+Rendering keywords/clear_all
+Completed in 0.01881 (53 reqs/sec) | Rendering: 0.00186 (9%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords/clear_all]
+  [4;36;1mSQL (0.000317)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+  [4;35;1mKeyword Create (0.000858)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 15:38:36', 'sherpa', '2008-10-21 15:38:36')[0m
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-21 11:38:36) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"sherpa"}}
+  [4;36;1mSQL (0.001715)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+Rendering keywords/create
+Completed in 0.00873 (114 reqs/sec) | Rendering: 0.00186 (21%) | DB: 0.00289 (33%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=sherpa]
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-21 11:38:36) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"yodeling"}}
+Rendering keywords/create
+Completed in 0.00293 (341 reqs/sec) | Rendering: 0.00183 (62%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=yodeling]
+  [4;35;1mSQL (0.000424)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000496)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 15:38:36', 'septagenarian', '2008-10-21 15:38:36')[0m
+  [4;35;1mSQL (0.000662)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mSQL (0.000347)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000273)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000312)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000461)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 15:38:36', 'septagenarian', '2008-10-21 15:38:36')[0m
+  [4;36;1mSQL (0.000291)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m

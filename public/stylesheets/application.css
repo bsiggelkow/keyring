@@ -1,0 +1,20 @@
+body {
+  background: lightyellow;
+  font-family: Verdana;
+  color: darkblue;
+}
+div#keywords {
+  width: 30%;
+  float: left;
+}
+div#search-results {
+  width: 70%;
+  float: right;
+}
+div#footer {
+  clear: both;
+}
+p.search-result {
+  background: goldenrod;
+  border: 1px dotted darkgray;
+}

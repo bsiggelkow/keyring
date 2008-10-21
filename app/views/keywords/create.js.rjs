@@ -1,0 +1,3 @@
+if @keyword.errors.empty?
+  page.insert_html :bottom, 'keyword-list', :partial => 'shared/keyword', :locals => {:keyword => @keyword}
+end
