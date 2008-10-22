@@ -8,7 +8,7 @@ describe 'main/index.html.erb' do
     ]
     @results = []
     assigns[:keywords] = @keywords
-    # assigns[:results] = @results
+    assigns[:results] = @results
   end
   
   it 'should display the keywords in a list' do
