@@ -325,3 +325,504 @@ Completed in 0.00293 (341 reqs/sec) | Rendering: 0.00183 (62%) | DB: 0.00000 (0%
   [4;36;1mSQL (0.000312)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
   [4;35;1mKeyword Create (0.000461)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 15:38:36', 'septagenarian', '2008-10-21 15:38:36')[0m
   [4;36;1mSQL (0.000291)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+
+
+Processing KeywordsController#clear_all (for 0.0.0.0 at 2008-10-21 14:05:04) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"clear_all", "controller"=>"keywords"}
+Rendering keywords/clear_all
+Completed in 0.01662 (60 reqs/sec) | Rendering: 0.00134 (8%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords/clear_all]
+  [4;36;1mSQL (0.000235)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+  [4;35;1mKeyword Create (0.000532)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 18:05:04', 'sherpa', '2008-10-21 18:05:04')[0m
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-21 14:05:04) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"sherpa"}}
+  [4;36;1mSQL (0.000438)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+Rendering keywords/create
+Completed in 0.00385 (259 reqs/sec) | Rendering: 0.00092 (23%) | DB: 0.00120 (31%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=sherpa]
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-21 14:05:04) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"yodeling"}}
+Rendering keywords/create
+Completed in 0.00165 (606 reqs/sec) | Rendering: 0.00098 (59%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=yodeling]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-21 14:05:04) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;35;1mKeyword Load (0.000364)[0m   [0mSELECT * FROM "keywords" [0m
+Rendering main/index
+Completed in 1.17759 (0 reqs/sec) | Rendering: 0.00058 (0%) | DB: 0.00036 (0%) | 200 OK [http://test.host/]
+
+
+Processing KeywordsController#clear_all (for 0.0.0.0 at 2008-10-21 14:05:57) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"clear_all", "controller"=>"keywords"}
+Rendering keywords/clear_all
+Completed in 0.01110 (90 reqs/sec) | Rendering: 0.00095 (8%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords/clear_all]
+  [4;36;1mSQL (0.000280)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+  [4;35;1mKeyword Create (0.000493)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 18:05:57', 'sherpa', '2008-10-21 18:05:57')[0m
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-21 14:05:57) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"sherpa"}}
+  [4;36;1mSQL (0.000430)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+Rendering keywords/create
+Completed in 0.00382 (261 reqs/sec) | Rendering: 0.00093 (24%) | DB: 0.00120 (31%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=sherpa]
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-21 14:05:57) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"yodeling"}}
+Rendering keywords/create
+Completed in 0.00161 (620 reqs/sec) | Rendering: 0.00094 (58%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=yodeling]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-21 14:05:57) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.91613 (1 reqs/sec) | Rendering: 0.00050 (0%) | DB: 0.00000 (0%) | 200 OK [http://test.host/]
+
+
+Processing KeywordsController#clear_all (for 0.0.0.0 at 2008-10-21 14:08:48) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"clear_all", "controller"=>"keywords"}
+Rendering keywords/clear_all
+Completed in 0.01104 (90 reqs/sec) | Rendering: 0.00095 (8%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords/clear_all]
+  [4;36;1mSQL (0.000212)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+  [4;35;1mKeyword Create (0.000474)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 18:08:48', 'sherpa', '2008-10-21 18:08:48')[0m
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-21 14:08:48) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"sherpa"}}
+  [4;36;1mSQL (0.000441)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+Rendering keywords/create
+Completed in 0.00381 (262 reqs/sec) | Rendering: 0.00092 (24%) | DB: 0.00113 (29%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=sherpa]
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-21 14:08:48) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"yodeling"}}
+Rendering keywords/create
+Completed in 0.00159 (628 reqs/sec) | Rendering: 0.00094 (58%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=yodeling]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-21 14:08:48) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;35;1mKeyword Load (0.000373)[0m   [0mSELECT * FROM "keywords" [0m
+Rendering main/index
+Completed in 0.91294 (1 reqs/sec) | Rendering: 0.00051 (0%) | DB: 0.00037 (0%) | 200 OK [http://test.host/]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-21 14:08:49) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00104 (963 reqs/sec) | Rendering: 0.00042 (40%) | DB: 0.00000 (0%) | 200 OK [http://test.host/]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-21 14:08:49) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;36;1mKeyword Load (0.000288)[0m   [0;1mSELECT * FROM "keywords" [0m
+Rendering main/index
+Completed in 0.00168 (596 reqs/sec) | Rendering: 0.00041 (24%) | DB: 0.00029 (17%) | 200 OK [http://test.host/]
+
+
+Processing KeywordsController#clear_all (for 0.0.0.0 at 2008-10-21 14:16:09) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"clear_all", "controller"=>"keywords"}
+Rendering keywords/clear_all
+Completed in 0.01118 (89 reqs/sec) | Rendering: 0.00097 (8%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords/clear_all]
+  [4;36;1mSQL (0.000278)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+  [4;35;1mKeyword Create (0.000514)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-21 18:16:09', 'sherpa', '2008-10-21 18:16:09')[0m
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-21 14:16:09) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"sherpa"}}
+  [4;36;1mSQL (0.000429)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+Rendering keywords/create
+Completed in 0.00381 (262 reqs/sec) | Rendering: 0.00092 (24%) | DB: 0.00122 (32%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=sherpa]
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-21 14:16:09) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"yodeling"}}
+Rendering keywords/create
+Completed in 0.00164 (609 reqs/sec) | Rendering: 0.00099 (60%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=yodeling]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-21 14:16:09) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;35;1mKeyword Load (0.000318)[0m   [0mSELECT * FROM "keywords" [0m
+Rendering main/index
+Completed in 0.92198 (1 reqs/sec) | Rendering: 0.00050 (0%) | DB: 0.00032 (0%) | 200 OK [http://test.host/]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-21 14:16:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00104 (957 reqs/sec) | Rendering: 0.00043 (40%) | DB: 0.00000 (0%) | 200 OK [http://test.host/]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-21 14:16:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00103 (972 reqs/sec) | Rendering: 0.00041 (39%) | DB: 0.00000 (0%) | 200 OK [http://test.host/]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-21 14:16:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;36;1mKeyword Load (0.000285)[0m   [0;1mSELECT * FROM "keywords" [0m
+Rendering main/index
+Completed in 0.00167 (597 reqs/sec) | Rendering: 0.00041 (24%) | DB: 0.00029 (17%) | 200 OK [http://test.host/]
+
+
+Processing KeywordsController#clear_all (for 0.0.0.0 at 2008-10-22 09:51:37) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"clear_all", "controller"=>"keywords"}
+Rendering keywords/clear_all
+Completed in 0.01416 (70 reqs/sec) | Rendering: 0.00114 (8%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords/clear_all]
+  [4;36;1mSQL (0.000227)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+  [4;35;1mKeyword Create (0.000516)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 13:51:37', 'sherpa', '2008-10-22 13:51:37')[0m
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-22 09:51:37) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"sherpa"}}
+  [4;36;1mSQL (0.000445)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+Rendering keywords/create
+Completed in 0.00385 (259 reqs/sec) | Rendering: 0.00095 (24%) | DB: 0.00119 (30%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=sherpa]
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-22 09:51:37) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"yodeling"}}
+Rendering keywords/create
+Completed in 0.00156 (640 reqs/sec) | Rendering: 0.00092 (58%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=yodeling]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 09:51:37) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;35;1mKeyword Load (0.000325)[0m   [0mSELECT * FROM "keywords" [0m
+Rendering main/index
+Completed in 0.99832 (1 reqs/sec) | Rendering: 0.01015 (1%) | DB: 0.00033 (0%) | 200 OK [http://test.host/main]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 09:51:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00529 (189 reqs/sec) | Rendering: 0.00478 (90%) | DB: 0.00000 (0%) | 200 OK [http://test.host/main]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 09:51:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00528 (189 reqs/sec) | Rendering: 0.00478 (90%) | DB: 0.00000 (0%) | 200 OK [http://test.host/main]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 09:51:38) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;36;1mKeyword Load (0.000293)[0m   [0;1mSELECT * FROM "keywords" [0m
+Rendering main/index
+Completed in 0.00595 (168 reqs/sec) | Rendering: 0.00479 (80%) | DB: 0.00029 (4%) | 200 OK [http://test.host/main]
+
+
+Processing KeywordsController#clear_all (for 0.0.0.0 at 2008-10-22 09:52:39) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"clear_all", "controller"=>"keywords"}
+Rendering keywords/clear_all
+Completed in 0.01143 (87 reqs/sec) | Rendering: 0.00096 (8%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords/clear_all]
+  [4;36;1mSQL (0.000226)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+  [4;35;1mKeyword Create (0.000793)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 13:52:39', 'sherpa', '2008-10-22 13:52:39')[0m
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-22 09:52:39) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"sherpa"}}
+  [4;36;1mSQL (0.000452)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+Rendering keywords/create
+Completed in 0.00388 (257 reqs/sec) | Rendering: 0.00094 (24%) | DB: 0.00147 (37%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=sherpa]
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-22 09:52:39) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"yodeling"}}
+Rendering keywords/create
+Completed in 0.00303 (329 reqs/sec) | Rendering: 0.00135 (44%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=yodeling]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 09:52:39) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;35;1mKeyword Load (0.000346)[0m   [0mSELECT * FROM "keywords" [0m
+Rendering main/index
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 09:52:40) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 09:52:40) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 09:52:40) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;36;1mKeyword Load (0.000313)[0m   [0;1mSELECT * FROM "keywords" [0m
+Rendering main/index
+
+
+Processing KeywordsController#clear_all (for 0.0.0.0 at 2008-10-22 09:53:09) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"clear_all", "controller"=>"keywords"}
+Rendering keywords/clear_all
+Completed in 0.01134 (88 reqs/sec) | Rendering: 0.00097 (8%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords/clear_all]
+  [4;36;1mSQL (0.000222)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+  [4;35;1mKeyword Create (0.000774)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 13:53:09', 'sherpa', '2008-10-22 13:53:09')[0m
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-22 09:53:09) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"sherpa"}}
+  [4;36;1mSQL (0.000445)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+Rendering keywords/create
+Completed in 0.00383 (260 reqs/sec) | Rendering: 0.00093 (24%) | DB: 0.00144 (37%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=sherpa]
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-22 09:53:09) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"yodeling"}}
+Rendering keywords/create
+Completed in 0.00157 (636 reqs/sec) | Rendering: 0.00093 (59%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=yodeling]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 09:53:09) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;35;1mKeyword Load (0.000328)[0m   [0mSELECT * FROM "keywords" [0m
+Rendering main/index
+Completed in 0.91326 (1 reqs/sec) | Rendering: 0.00050 (0%) | DB: 0.00033 (0%) | 200 OK [http://test.host/main]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 09:53:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00105 (948 reqs/sec) | Rendering: 0.00044 (41%) | DB: 0.00000 (0%) | 200 OK [http://test.host/main]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 09:53:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00101 (990 reqs/sec) | Rendering: 0.00041 (40%) | DB: 0.00000 (0%) | 200 OK [http://test.host/main]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 09:53:10) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;36;1mKeyword Load (0.000288)[0m   [0;1mSELECT * FROM "keywords" [0m
+Rendering main/index
+Completed in 0.00173 (578 reqs/sec) | Rendering: 0.00041 (23%) | DB: 0.00029 (16%) | 200 OK [http://test.host/main]
+  [4;36;1mSQL (0.000221)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000522)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 14:00:27', 'septagenarian', '2008-10-22 14:00:27')[0m
+  [4;36;1mSQL (0.000201)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;35;1mSQL (0.000500)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000310)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000384)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000522)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 14:00:27', 'septagenarian', '2008-10-22 14:00:27')[0m
+  [4;35;1mSQL (0.000574)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mSQL (0.000225)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000575)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 14:11:26', 'septagenarian', '2008-10-22 14:11:26')[0m
+  [4;36;1mSQL (0.000214)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;35;1mSQL (0.000338)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000202)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000284)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000410)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 14:11:26', 'septagenarian', '2008-10-22 14:11:26')[0m
+  [4;35;1mSQL (0.000430)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+Rendering main/index
+Rendering main/index
+Rendered shared/_keyword (0.00022)
+Rendered shared/_keyword (0.00019)
+Rendering main/index
+Rendered shared/_keyword (0.00021)
+Rendered shared/_keyword (0.00019)
+Rendering main/index
+Rendered shared/_keyword (0.00025)
+Rendered shared/_keyword (0.00019)
+Rendering main/index
+Rendered shared/_keyword (0.09104)
+Rendered shared/_keyword (0.00021)
+Rendering main/index
+Rendered shared/_keyword (0.00021)
+Rendered shared/_keyword (0.00021)
+Rendering main/index
+Rendering main/index
+Rendering main/index
+Rendering main/index
+Rendering main/index
+
+
+Processing KeywordsController#clear_all (for 0.0.0.0 at 2008-10-22 10:35:28) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"clear_all", "controller"=>"keywords"}
+Rendering keywords/clear_all
+Completed in 0.01123 (89 reqs/sec) | Rendering: 0.00096 (8%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords/clear_all]
+  [4;36;1mSQL (0.000220)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+  [4;35;1mKeyword Create (0.000505)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 14:35:28', 'sherpa', '2008-10-22 14:35:28')[0m
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-22 10:35:28) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"sherpa"}}
+  [4;36;1mSQL (0.000446)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+Rendering keywords/create
+Completed in 0.00387 (258 reqs/sec) | Rendering: 0.00095 (24%) | DB: 0.00117 (30%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=sherpa]
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-22 10:35:28) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"yodeling"}}
+Rendering keywords/create
+Completed in 0.00253 (395 reqs/sec) | Rendering: 0.00131 (51%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=yodeling]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 10:35:28) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;35;1mKeyword Load (0.000350)[0m   [0mSELECT * FROM "keywords" [0m
+Rendering main/index
+Completed in 1.20975 (0 reqs/sec) | Rendering: 0.00051 (0%) | DB: 0.00035 (0%) | 200 OK [http://test.host/main]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 10:35:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00104 (961 reqs/sec) | Rendering: 0.00042 (40%) | DB: 0.00000 (0%) | 200 OK [http://test.host/main]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 10:35:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00100 (1003 reqs/sec) | Rendering: 0.00041 (40%) | DB: 0.00000 (0%) | 200 OK [http://test.host/main]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 10:35:29) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;36;1mKeyword Load (0.000293)[0m   [0;1mSELECT * FROM "keywords" [0m
+Rendering main/index
+Completed in 0.00168 (596 reqs/sec) | Rendering: 0.00041 (24%) | DB: 0.00029 (17%) | 200 OK [http://test.host/main]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 10:36:21) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;36;1mKeyword Load (0.000468)[0m   [0;1mSELECT * FROM "keywords" [0m
+Rendering main/index
+Completed in 0.96164 (1 reqs/sec) | Rendering: 0.00052 (0%) | DB: 0.00047 (0%) | 200 OK [http://test.host/main]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 10:36:22) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00108 (928 reqs/sec) | Rendering: 0.00044 (40%) | DB: 0.00000 (0%) | 200 OK [http://test.host/main]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 10:36:22) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+Rendering main/index
+Completed in 0.00111 (901 reqs/sec) | Rendering: 0.00045 (40%) | DB: 0.00000 (0%) | 200 OK [http://test.host/main]
+
+
+Processing MainController#index (for 0.0.0.0 at 2008-10-22 10:36:22) [GET]
+  Session ID: 
+  Parameters: {"action"=>"index", "controller"=>"main"}
+  [4;35;1mKeyword Load (0.000319)[0m   [0mSELECT * FROM "keywords" [0m
+Rendering main/index
+Completed in 0.00176 (567 reqs/sec) | Rendering: 0.00043 (24%) | DB: 0.00032 (18%) | 200 OK [http://test.host/main]
+
+
+Processing KeywordsController#clear_all (for 0.0.0.0 at 2008-10-22 10:36:22) [DELETE]
+  Session ID: 
+  Parameters: {"action"=>"clear_all", "controller"=>"keywords"}
+  [4;36;1mKeyword Load (0.000313)[0m   [0;1mSELECT * FROM "keywords" [0m
+Rendering keywords/clear_all
+Completed in 0.01266 (78 reqs/sec) | Rendering: 0.00099 (7%) | DB: 0.00031 (2%) | 200 OK [http://test.host/keywords/clear_all]
+  [4;35;1mSQL (0.000270)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+  [4;36;1mKeyword Create (0.000506)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 14:36:22', 'sherpa', '2008-10-22 14:36:22')[0m
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-22 10:36:22) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"sherpa"}}
+  [4;35;1mSQL (0.000470)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'sherpa') [0m
+Rendering keywords/create
+Completed in 0.00393 (254 reqs/sec) | Rendering: 0.00095 (24%) | DB: 0.00125 (31%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=sherpa]
+
+
+Processing KeywordsController#create (for 0.0.0.0 at 2008-10-22 10:36:22) [POST]
+  Session ID: 
+  Parameters: {"action"=>"create", "controller"=>"keywords", "keyword"=>{"phrase"=>"yodeling"}}
+Rendering keywords/create
+Completed in 0.00243 (412 reqs/sec) | Rendering: 0.00143 (58%) | DB: 0.00000 (0%) | 200 OK [http://test.host/keywords?keyword%5Bphrase%5D=yodeling]
+Rendering main/index
+  [4;36;1mSQL (0.000292)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000839)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 14:54:00', 'septagenarian', '2008-10-22 14:54:00')[0m
+  [4;36;1mSQL (0.000314)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;35;1mSQL (0.000422)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000311)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000348)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000496)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 14:54:00', 'septagenarian', '2008-10-22 14:54:00')[0m
+  [4;35;1mSQL (0.000532)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mSQL (0.000233)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000476)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 14:54:21', 'septagenarian', '2008-10-22 14:54:21')[0m
+  [4;36;1mSQL (0.000201)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;35;1mSQL (0.000459)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000233)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000296)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000399)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 14:54:21', 'septagenarian', '2008-10-22 14:54:21')[0m
+  [4;35;1mSQL (0.000420)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+Rendering main/index
+Rendering main/index
+Rendering main/index
+Rendering main/index
+  [4;36;1mSQL (0.000221)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;35;1mKeyword Create (0.000468)[0m   [0mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 15:08:28', 'septagenarian', '2008-10-22 15:08:28')[0m
+  [4;36;1mSQL (0.000198)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian' AND "keywords".id <> 1) [0m
+  [4;35;1mSQL (0.000506)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;36;1mSQL (0.000221)[0m   [0;1mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase IS NULL) [0m
+  [4;35;1mSQL (0.000278)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+  [4;36;1mKeyword Create (0.000383)[0m   [0;1mINSERT INTO "keywords" ("updated_at", "phrase", "created_at") VALUES('2008-10-22 15:08:28', 'septagenarian', '2008-10-22 15:08:28')[0m
+  [4;35;1mSQL (0.000419)[0m   [0mSELECT "phrase" FROM "keywords" WHERE ("keywords".phrase = 'septagenarian') [0m
+Rendering main/index
+Rendering main/index
+Rendering main/index
+Rendering main/index

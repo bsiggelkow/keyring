@@ -17,5 +17,4 @@ class MainController < ApplicationController
     @results = results.sort {|a,b| b.date <=> a.date}
   end
     
-
 end

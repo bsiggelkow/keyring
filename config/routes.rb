@@ -1,5 +1,6 @@
 ActionController::Routing::Routes.draw do |map|
   map.resources :keywords, :collection => { :clear_all => :delete }
+  map.resources :main, :controller => 'main'
 
   # The priority is based upon order of creation: first created -> highest priority.
 
