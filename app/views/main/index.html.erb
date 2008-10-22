@@ -19,6 +19,7 @@
   </div>
   <div id='search-results'>
     <h3>Search Results (via Yahoo BOSS)</h3>
+    <%= link_to 'RSS Feed', formatted_main_index_path(:rss) %>
     <div id='search-results-list'>
       <%= render :partial => 'result', :collection => @results %>
     </div>
