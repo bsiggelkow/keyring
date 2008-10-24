@@ -15,6 +15,7 @@
       <%= f.submit 'Add' %>
     <% end %>
     <%= link_to_remote 'Clear all keywords', :url => clear_all_keywords_path, :method => :delete %>
+    <%= select_date(Time.today - 2.years) %>
     </p>
   </div>
   <div id='search-results'>
