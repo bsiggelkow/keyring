@@ -1,7 +1,7 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
 describe SearchResult do
-  before(:all) do
+  before(:each) do
     @boss_result = mock('boss_result')
     @boss_result.stub!(:title).and_return( 'Chicken Runs Wild' )
     @boss_result.stub!(:clickurl).and_return('http://wildchicken.org')
@@ -17,4 +17,18 @@ describe SearchResult do
     res.click_url.should eql(@boss_result.clickurl)
     res.date.should eql(@boss_result.date)
   end
+  
+  it 'should equal another SearchResult if the display_url is the same' do
+    res1 = SearchResult.new(@boss_result)
+    res2 = SearchResult.new(@boss_result)
+    res1.should eql(res2)
+  end
+
+  it 'should not equal another SearchResult if the display_url is different' do
+    res1 = SearchResult.new(@boss_result)
+    @boss_result.stub!(:dispurl).and_return('polloloco.org')
+    res2 = SearchResult.new(@boss_result)
+    res1.should_not eql(res2)
+  end
+    
 end

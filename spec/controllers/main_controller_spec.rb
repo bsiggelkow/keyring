@@ -23,4 +23,10 @@ describe MainController do
     response.should render_template(:index)
   end
 
+  it 'should update search results' do
+    get :search
+    assigns[:keywords].should_not be_nil
+    response.should render_template(:search)
+  end
+
 end
