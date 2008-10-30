@@ -1,2 +1,6 @@
-Use this README file to introduce your application and point to useful places in the API for learning more.
-Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+== Keyring: A Keyword Search Engine
+
+== Description
+Keyring is a simple web application that uses the Yahoo BOSS (Build your Own Search Service)
+API to search the web based on user-specified keywords and phrases. This application was built
+as a sample application for interfacing to BOSS via the Bossman Ruby-gem. 
