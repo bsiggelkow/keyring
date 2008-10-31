@@ -1,5 +1,3 @@
-<%= javascript_include_tag :defaults %>
-<%= stylesheet_link_tag 'application' %>
 <h2>Welcome to Keyring!</h2>
 <div id='wrapper'>
   <div id='keywords'>
@@ -7,7 +5,7 @@
     <ul id='keyword-list'>
       <%= render :partial => 'shared/keyword', :collection => @keywords %>
     </ul>
-    <%= link_to_remote 'Search', :url => {:action => 'search'} %>
+    <%= link_to_remote 'Search', :url => search_main_path %>
     <p>
     Add Keyword: 
     <% remote_form_for :keyword, :url => keywords_path(:format => 'js') do |f| %>
@@ -15,7 +13,6 @@
       <%= f.submit 'Add' %>
     <% end %>
     <%= link_to_remote 'Clear all keywords', :url => clear_all_keywords_path, :method => :delete %>
-    <%= select_date(Time.today - 2.years) %>
     </p>
   </div>
   <div id='search-results'>
