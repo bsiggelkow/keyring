@@ -4,3 +4,5 @@
 Keyring is a simple web application that uses the Yahoo BOSS (Build your Own Search Service)
 API to search the web based on user-specified keywords and phrases. This application was built
 as a sample application for interfacing to BOSS via the Bossman Ruby-gem. 
+
+This branch uses jRails and JQuery.
